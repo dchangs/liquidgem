@@ -1,0 +1,205 @@
+* {
+	display: block;
+}
+
+body {
+	margin: 0;
+	padding: 0 15px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #EDEDED;
+	color: #536071;
+}
+
+head {
+	display: none;
+}
+
+/* top navigation bar */
+
+nav {
+	height: 40px;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#companylogo {
+	width: 200px;
+	padding-top: 20px;
+	float: left;
+}
+
+#companylogo img {
+	height: 15px;
+	width: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+#companylogo h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#companylogo h1, #companylogo img {
+	display: inline-block;
+}
+
+/* navigation links */
+
+nav > ul {
+	margin: 0 5px;
+	padding: 20px 5px;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #536071;
+	font-size: 15px;
+}
+
+hr {
+	margin: 5px 0;
+	border: none;
+	border-top: 1px solid #536071;
+}
+
+/* header title */
+
+header {
+	text-align: center;
+	margin: 30px 0;
+	padding: 10px 0;
+}
+
+header > h1 {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+header > h1 > span {
+	color: #F5A0B5;
+	display: inline;
+}
+
+header > p {
+	font-size: 14px;
+}
+
+header > img {
+	height: 220px;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 0;
+}
+
+/* information */
+
+#info {
+	margin: 0 auto;
+}
+
+#about, #work {
+	float: left;
+	width: 46%;
+	font-size: 12px;
+}
+
+#about {
+	margin-right: 40px;
+}
+
+#work {
+	padding-left: 10px;
+}
+
+#about > h2, #work > h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 22px;
+	color: #F5A0B5;
+	text-align: center;
+	padding: 15px 0;
+}
+
+#about > p, #work, p {
+	line-height: 20px;
+}
+
+/* portfolio */
+
+#portfolio {
+	display: block;
+	clear: both;
+}
+
+#portfolio article {
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	clear: both;
+}
+
+#portfolio article > div {
+	background-color: white;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 0;
+	height: 120px;
+	width: 120px;
+	box-shadow: 2px 2px 2px #888;
+	float: left;
+}
+
+#portfolio > article > div > img {
+	height: 80px;
+	width: 120px;
+}
+
+#portfolio > article > div > h2 {
+	font-size: 12px;
+	margin: 4px 0 0 0;
+	padding: 0 2px;
+}
+
+#portfolio > article > div > p {
+	margin: 0;
+	padding: 0 2px;
+	font-size: 10px;
+	color: #F5A0B5;
+	line-height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
