@@ -163,7 +163,7 @@ header > img {
 	width: 120px;
 	box-shadow: 2px 2px 2px #888;
 	text-align: left;
-	float: left;
+	display: inline-block;
 }
 
 #portfolio img {
